@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+}
+body .main {
+  display: block;
+  position: fixed;
+  border: 20px solid #2782ae;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #309acd;
+  transition: all 0.1s ease-in;
+}
+body .main section {
+  display: block;
+  position: fixed;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+}
+body .main section h1 {
+  color: #fff;
+  display: inline-block;
+}
+body .main section .wi-sunrise {
+  display: inline-block;
+  color: #fff;
+}
+body .main section .main-box {
+  display: block;
+  border: 3px #dadada solid;
+  width: 100%;
+  list-style-type: none;
+  font-size: 0;
+  padding: 0;
+  background: #fff;
+  z-index: 5;
+}
+body .main section .main-box:hover ul > li {
+  opacity: .5;
+}
+body .main section .main-box .first-section {
+  z-index: 1;
+}
+body .main section .main-box .first-section ul {
+  padding: 0;
+}
+body .main section .main-box .first-section ul li {
+  display: inline-block;
+  width: 25%;
+}
+body .main section .main-box .first-section ul li:hover {
+  opacity: 1;
+}
+body .main section .main-box .first-section ul li:first-child {
+  width: 50%;
+  background-color: #309acd;
+}
+body .main section .main-box .first-section ul li:nth-child(2) {
+  background-color: #30cdcd;
+}
+body .main section .main-box .first-section ul li:nth-child(3) {
+  background-color: #9a669a;
+}
+body .main section .main-box .first-section ul li span {
+  display: block;
+  border: 3px #dadada solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #fff;
+}
+body .main section .main-box .first-section ul li span p {
+  text-align: center;
+  font-size: 18px;
+  color: #bdc3c7;
+  font-weight: 500;
+}
+body .main section .main-box .first-section ul li span p i {
+  margin-left: 5px;
+}
+body .main section .main-box .second-section ul {
+  padding: 0;
+}
+body .main section .main-box .second-section ul li {
+  display: inline-block;
+  width: 25%;
+}
+body .main section .main-box .second-section ul li:hover {
+  opacity: 1;
+}
+body .main section .main-box .second-section ul li:first-child {
+  background-color: #c44545;
+}
+body .main section .main-box .second-section ul li:nth-child(2) {
+  background-color: #e36748;
+}
+body .main section .main-box .second-section ul li:nth-child(3) {
+  background-color: #ffcd66;
+}
+body .main section .main-box .second-section ul li:last-child {
+  background-color: #9acd9a;
+}
+body .main section .main-box .second-section ul li span {
+  display: block;
+  border: 3px #dadada solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #fff;
+}
+body .main section .main-box .second-section ul li span p {
+  font-size: 18px;
+  color: #d2dae2;
+  font-weight: 500;
+}
+body .main section .main-box .second-section ul li span p i {
+  margin-left: 5px;
+}
+body .main section .main-box .third-section ul {
+  padding: 0;
+}
+body .main section .main-box .third-section ul li {
+  display: inline-block;
+  width: 25%;
+}
+body .main section .main-box .third-section ul li:hover {
+  opacity: 1;
+}
+body .main section .main-box .third-section ul li:first-child {
+  background-color: #669a9a;
+}
+body .main section .main-box .third-section ul li:nth-child(2) {
+  width: 50%;
+  background-color: #cd669a;
+}
+body .main section .main-box .third-section ul li:nth-child(3) {
+  background-color: #309a66;
+}
+body .main section .main-box .third-section ul li span {
+  display: block;
+  border: 3px #dadada solid;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #fff;
+}
+body .main section .main-box .third-section ul li span p {
+  font-size: 18px;
+  color: #d2dae2;
+  font-weight: 500;
+}
+body .main section .main-box .third-section ul li span p i {
+  margin-left: 5px;
+}
+body .main section .main-box .fourth-section {
+  width: 100%;
+  background-color: #66669a;
+}
+body .main section .main-box .fourth-section ul {
+  padding: 0;
+}
+body .main section .main-box .fourth-section ul li {
+  display: inline-block;
+  width: 100%;
+}
+body .main section .main-box .fourth-section ul li:hover {
+  opacity: 1;
+}
+body .main section .main-box .fourth-section ul li span {
+  display: block;
+  border: 3px #dadada solid;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+body .main section .main-box .fourth-section ul li span p {
+  font-size: 18px;
+  color: #d2dae2;
+  font-weight: 500;
+}
+body .main section .main-box .fourth-section ul li span p i {
+  margin-left: 5px;
+}
+body .main section p {
+  color: #fff;
+}
